@@ -4,7 +4,7 @@ import React from "react";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 // In the Header component
-const Header = ({ toggleSidebar, isSidebarOpen }) => {
+const Header = ({ toggleSidebar, isSidebarOpen }: any) => {
   return (
     <div
       className={`flex w-full items-center justify-between p-4 bg-[#5B3256] h-[45px] transition-all duration-300 ${

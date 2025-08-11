@@ -1,6 +1,6 @@
 import React from "react";
 
-const Sidebar = ({ activeIndex, handleColorChange, isOpen }) => {
+const Sidebar = ({ activeIndex, handleColorChange, isOpen }: any) => {
   const SidebarItems = ["Notes", "Archive", "Deleted", "Draft", "Private"];
 
   return (
